@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/shubham/CodeForces/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/home/shubham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/381d5b9a7ff7e93d74837ba86be37f5b/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}
