@@ -1,10 +1,8 @@
 package com.codeforces.shubham.codeforces;
 
 import android.app.AlertDialog;
-import android.app.LoaderManager;
+import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Loader;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,11 +10,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.ProgressBar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -39,17 +38,22 @@ public class MainActivity extends AppCompatActivity {
     private EditText handle;
     private Button submit, save;
     private String name;
+    private ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+
         handle = (EditText) findViewById(R.id.title);
         submit = (Button) findViewById(R.id.submit);
         save = (Button) findViewById(R.id.save);
+        progressBar = (ProgressBar) findViewById(R.id.progress_circular);
 
         save.setVisibility(View.GONE);
+        progressBar.setVisibility(View.GONE);
 
         handle.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +66,10 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(handle.getWindowToken(),
+                        InputMethodManager.RESULT_UNCHANGED_SHOWN);
+                progressBar.setVisibility(View.VISIBLE);
                 name = handle.getText().toString();
                 Retrofit retrofit = new Retrofit.Builder()
                         .baseUrl(API_URL)
@@ -72,35 +80,31 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                         try {
-                            if(response.body() == null) {
-                                Toast.makeText(MainActivity.this, "BC!!", Toast.LENGTH_LONG).show();
-                            }
-                            else {
-                                String data = response.body().string();
-                                ArrayList<Contest> contestList = new ArrayList<Contest>();
-                                try {
-                                    JSONObject basejsonResponse = new JSONObject(data);
-                                    JSONArray res = basejsonResponse.getJSONArray("result");
-                                    for (int i = 0; i < res.length(); i++) {
-                                        Contest contest = new Contest();
-                                        contest.setContestName(res.getJSONObject(i).getString("contestName"));
-                                        contest.setRank(Integer.parseInt(res.getJSONObject(i).getString("rank")));
-                                        contest.setOldRating(Integer.parseInt(res.getJSONObject(i).getString("oldRating")));
-                                        contest.setNewRating(Integer.parseInt(res.getJSONObject(i).getString("newRating")));
-                                        contest.setChange(contest.getNewRating() - contest.getOldRating());
-                                        contestList.add(contest);
-                                    }
-                                } catch (JSONException e) {
-                                    e.printStackTrace();
+                            progressBar.setVisibility(View.GONE);
+                            String data = response.body().string();
+                            ArrayList<Contest> contestList = new ArrayList<>();
+                            try {
+                                JSONObject basejsonResponse = new JSONObject(data);
+                                JSONArray res = basejsonResponse.getJSONArray("result");
+                                for (int i = 0; i < res.length(); i++) {
+                                    Contest contest = new Contest();
+                                    contest.setContestName(res.getJSONObject(i).getString("contestName"));
+                                    contest.setRank(Integer.parseInt(res.getJSONObject(i).getString("rank")));
+                                    contest.setOldRating(Integer.parseInt(res.getJSONObject(i).getString("oldRating")));
+                                    contest.setNewRating(Integer.parseInt(res.getJSONObject(i).getString("newRating")));
+                                    contest.setChange(contest.getNewRating() - contest.getOldRating());
+                                    contestList.add(contest);
                                 }
-                                contestList = reverse(contestList);
-                                RecyclerView recyclerView = findViewById(R.id.contestsAppeared);
-                                ContestsAppearedAdapter adapter = new ContestsAppearedAdapter(MainActivity.this, contestList);
-                                recyclerView.setAdapter(adapter);
-                                recyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
-                                submit.setVisibility(View.GONE);
-                                save.setVisibility(View.VISIBLE);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
                             }
+                            contestList = reverse(contestList);
+                            RecyclerView recyclerView = findViewById(R.id.contestsAppeared);
+                            ContestsAppearedAdapter adapter = new ContestsAppearedAdapter(MainActivity.this, contestList);
+                            recyclerView.setAdapter(adapter);
+                            recyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
+                            submit.setVisibility(View.GONE);
+                            save.setVisibility(View.VISIBLE);
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
@@ -122,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
             newList.add(contestList.get(i));
         return newList;
     }
+
     public interface Api {
         @GET("user.rating")
         Call<ResponseBody> getContests(
@@ -138,13 +143,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if(id == R.id.fav) {
+        if (id == R.id.fav) {
             AlertDialog.Builder builderSingle = new AlertDialog.Builder(MainActivity.this);
             builderSingle.setTitle("Select Handle:");
 
             final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.select_dialog_item);
             //attach data to adapter here
-
+            arrayAdapter.add("shubham__");
 
             builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
                 @Override
