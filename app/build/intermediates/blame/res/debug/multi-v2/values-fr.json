@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shubham/CodeForces/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+            "outputFile": "/home/shubham__/CodeForcesApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
             "map": [
                 {
-                    "source": "/home/shubham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/381d5b9a7ff7e93d74837ba86be37f5b/res/values-fr/values-fr.xml",
+                    "source": "/home/shubham__/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0cfd69fa09b3fca1c90131fb38bdd5cf/res/values-fr/values-fr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/shubham/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/83616e77c4c287d1bf4bcac63cf4af2a/res/values-fr/values-fr.xml",
+                    "source": "/home/shubham__/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/76b768af068bc33f4b7bdbe895d0a2cd/res/values-fr/values-fr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

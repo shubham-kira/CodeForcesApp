@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shubham/CodeForces/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/home/shubham__/CodeForcesApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/home/shubham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/381d5b9a7ff7e93d74837ba86be37f5b/res/values-v26/values-v26.xml",
+                    "source": "/home/shubham__/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0cfd69fa09b3fca1c90131fb38bdd5cf/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

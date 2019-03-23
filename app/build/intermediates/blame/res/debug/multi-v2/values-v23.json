@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shubham/CodeForces/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/shubham__/CodeForcesApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/shubham/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/8afcbd2300c98a2d5484dff7eae78dec/res/values-v23/values-v23.xml",
+                    "source": "/home/shubham__/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7679b14cd314e5674c7970b23337b883/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/shubham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/381d5b9a7ff7e93d74837ba86be37f5b/res/values-v23/values-v23.xml",
+                    "source": "/home/shubham__/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0cfd69fa09b3fca1c90131fb38bdd5cf/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

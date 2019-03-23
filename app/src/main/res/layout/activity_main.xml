@@ -6,22 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:text="@string/shubham190shubham"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#000000" />
+        android:layout_margin="15dp"
+        android:hint="Enter handle..." />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:layout_toRightOf="@id/title"
+        android:text="Go" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:layout_toRightOf="@id/title"
+        android:text="Save" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/contestsAppeared"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/title"
-        android:layout_margin="15dp"/>
+        android:layout_margin="15dp" />
 
 </RelativeLayout>

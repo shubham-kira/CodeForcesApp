@@ -1,117 +1,117 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/381d5b9a7ff7e93d74837ba86be37f5b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/368c771e65f07f2d41f8a44242348853/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b63f3ab1fe9cdc6121b4967e84ab2b14/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/8afcbd2300c98a2d5484dff7eae78dec/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/90d2dbc03d1c2a7b6824bed97a80d7d1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9f86e61a174d9d82b2fbfda88843c809/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/f8576a9c100998976c1f707229d0c20b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3ebd35b073adeddb146076327df50fb0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5848c4110c84752e6845cd3245fa6e87/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/83616e77c4c287d1bf4bcac63cf4af2a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f26a0c9122d05d1db77627c5ec8b5a32/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dcf7df22f786aa34c67411f8e6ba33ac/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/30469d259b3f60823297515b3bd4673e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2535ac8ed82259caadc69a31457fed3a/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0cfd69fa09b3fca1c90131fb38bdd5cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham__/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/acbd510fffa69fd24eeb38827760ec07/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/873f9b899fe3e1c0e714486e373b1f87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7679b14cd314e5674c7970b23337b883/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e8a8bca4e20df7322e05c0d01ff9ccc1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4c14c33bc0436c28b860e0c6ecb1a8c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/49b3ddcedb68de993e3301d682947a02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/cc105b4a1a554c010eec3f7bba5dbe7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/11e2fc8ebb21539874f4ca6f998dbd93/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/76b768af068bc33f4b7bdbe895d0a2cd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/53b10254e5bd2a805f4372d73cbea24f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/10c4a610611bbb74b2108da79aed771b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0cdd0d466f8ab82e46b845042392e8ba/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/749a0bf4e64b93292849905bd9105204/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:3:5-48
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:8:5-22:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/368c771e65f07f2d41f8a44242348853/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/368c771e65f07f2d41f8a44242348853/AndroidManifest.xml:9:5-20
+ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:8:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham__/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/acbd510fffa69fd24eeb38827760ec07/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham__/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/acbd510fffa69fd24eeb38827760ec07/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.codeforces.shubham.codeforces.MainActivity
-ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/381d5b9a7ff7e93d74837ba86be37f5b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/381d5b9a7ff7e93d74837ba86be37f5b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/368c771e65f07f2d41f8a44242348853/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/368c771e65f07f2d41f8a44242348853/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b63f3ab1fe9cdc6121b4967e84ab2b14/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b63f3ab1fe9cdc6121b4967e84ab2b14/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/8afcbd2300c98a2d5484dff7eae78dec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/8afcbd2300c98a2d5484dff7eae78dec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/90d2dbc03d1c2a7b6824bed97a80d7d1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/90d2dbc03d1c2a7b6824bed97a80d7d1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9f86e61a174d9d82b2fbfda88843c809/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9f86e61a174d9d82b2fbfda88843c809/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/f8576a9c100998976c1f707229d0c20b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/f8576a9c100998976c1f707229d0c20b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3ebd35b073adeddb146076327df50fb0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3ebd35b073adeddb146076327df50fb0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5848c4110c84752e6845cd3245fa6e87/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5848c4110c84752e6845cd3245fa6e87/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/83616e77c4c287d1bf4bcac63cf4af2a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/shubham/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/83616e77c4c287d1bf4bcac63cf4af2a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f26a0c9122d05d1db77627c5ec8b5a32/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f26a0c9122d05d1db77627c5ec8b5a32/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dcf7df22f786aa34c67411f8e6ba33ac/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/dcf7df22f786aa34c67411f8e6ba33ac/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/30469d259b3f60823297515b3bd4673e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/30469d259b3f60823297515b3bd4673e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2535ac8ed82259caadc69a31457fed3a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/shubham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2535ac8ed82259caadc69a31457fed3a/AndroidManifest.xml:20:5-44
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0cfd69fa09b3fca1c90131fb38bdd5cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0cfd69fa09b3fca1c90131fb38bdd5cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham__/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/acbd510fffa69fd24eeb38827760ec07/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shubham__/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/acbd510fffa69fd24eeb38827760ec07/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/873f9b899fe3e1c0e714486e373b1f87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/873f9b899fe3e1c0e714486e373b1f87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7679b14cd314e5674c7970b23337b883/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7679b14cd314e5674c7970b23337b883/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e8a8bca4e20df7322e05c0d01ff9ccc1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e8a8bca4e20df7322e05c0d01ff9ccc1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4c14c33bc0436c28b860e0c6ecb1a8c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4c14c33bc0436c28b860e0c6ecb1a8c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/49b3ddcedb68de993e3301d682947a02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/49b3ddcedb68de993e3301d682947a02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/cc105b4a1a554c010eec3f7bba5dbe7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/cc105b4a1a554c010eec3f7bba5dbe7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/11e2fc8ebb21539874f4ca6f998dbd93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/11e2fc8ebb21539874f4ca6f998dbd93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/76b768af068bc33f4b7bdbe895d0a2cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/shubham__/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/76b768af068bc33f4b7bdbe895d0a2cd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/53b10254e5bd2a805f4372d73cbea24f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/53b10254e5bd2a805f4372d73cbea24f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/10c4a610611bbb74b2108da79aed771b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/10c4a610611bbb74b2108da79aed771b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0cdd0d466f8ab82e46b845042392e8ba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0cdd0d466f8ab82e46b845042392e8ba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/749a0bf4e64b93292849905bd9105204/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/shubham__/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/749a0bf4e64b93292849905bd9105204/AndroidManifest.xml:20:5-44
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-		ADDED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
-		INJECTED from /home/shubham/CodeForces/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shubham__/CodeForcesApp/app/src/main/AndroidManifest.xml
